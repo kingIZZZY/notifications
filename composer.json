@@ -27,18 +27,18 @@
     },
     "require": {
         "php": "^8.2",
-        "hyperf/config": "~3.1.0",
-        "hyperf/stringable": "~3.1.0",
-        "hyperf/contract": "~3.1.0",
-        "hyperf/collection": "~3.1.0",
-        "hyperf/context": "~3.1.0",
-        "hyperf/database": "~3.1.0",
-        "hyperf/di": "~3.1.0",
-        "hypervel/broadcasting": "^0.1",
-        "hypervel/support": "^0.1",
-        "hypervel/mail": "^0.1",
-        "hypervel/queue": "^0.1",
-        "hypervel/object-pool": "^0.1"
+        "hyperf/config": "dev-3.2",
+        "hyperf/stringable": "dev-3.2",
+        "hyperf/contract": "dev-3.2",
+        "hyperf/collection": "dev-3.2",
+        "hyperf/context": "dev-3.2",
+        "hyperf/database": "dev-3.2",
+        "hyperf/di": "dev-3.2",
+        "hypervel/broadcasting": "dev-main",
+        "hypervel/support": "dev-main",
+        "hypervel/mail": "dev-main",
+        "hypervel/queue": "dev-main",
+        "hypervel/object-pool": "dev-main"
     },
     "config": {
         "sort-packages": true
@@ -55,5 +55,27 @@
         "branch-alias": {
             "dev-main": "0.1-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/broadcasting" 
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/support" 
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/mail" 
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/queue" 
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/object-pool" 
+        }
+    ]
 }
