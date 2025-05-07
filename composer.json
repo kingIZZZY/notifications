@@ -38,8 +38,8 @@
         "hypervel/support": "dev-edge-hyperf3.2",
         "hypervel/mail": "dev-edge-hyperf3.2",
         "hypervel/queue": "dev-edge-hyperf3.2",
-        "hypervel/object-pool": "dev-edge-hyperf3.2"",
-        "hypervel/translation": "dev-edge-hyperf3.2""
+        "hypervel/object-pool": "dev-edge-hyperf3.2",
+        "hypervel/translation": "dev-edge-hyperf3.2"
     },
     "config": {
         "sort-packages": true
